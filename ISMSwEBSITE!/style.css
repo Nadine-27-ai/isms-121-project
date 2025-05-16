@@ -1,0 +1,91 @@
+/* style.css */
+
+
+/* Reset some default styles */
+
+*{
+    margin: 0%;;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(51, 51, 203);
+    color: #bc3e3e;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav{
+    justify-self: center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+    background-color: #0c2239;
+}
+
+nav ul li {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(229, 230, 236);
+    padding-bottom: 70px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 27%;
+    top: 100%;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brain{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: auto;
+    margin: auto;
+}
+
+.brain li{
+    margin: 0 40px;
+    display: inline;
+}
